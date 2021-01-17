@@ -7,7 +7,7 @@ import pickle
 
 x = []
 y = []
-os.chdir("C:\Users\714h\Desktop\7h-KerasDL_Simple_Chatbot")
+os.chdir("C:\Users\???\Desktop\7h-KerasDL_Simple_Chatbot")
 model = gensim.models.Word2Vec.load('word2vec.bin')
 cp = "corpus"
 f = open(cp+"data.json")
